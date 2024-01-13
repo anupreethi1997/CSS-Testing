@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div.static{
+                position: static;
+                background-color: orange;
+            }
+            div.fixed{
+                position: fixed;
+                background-color: yellow;
+                bottom: 0;
+                left: 20px;
+            }
+            div.relative{
+                position: relative;
+                background-color: yellowgreen;
+                left: 25px;
+            }            
+            div.aboulte{
+                position: absolute;
+                background-color: red;
+                bottom: 100px;
+                right: 50px;
+            }
+            div.sticky{
+                position: -webkit-sticky;
+                position: sticky;
+                background-color: hotpink;
+                top: 0;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Css Positions</h1>
+        <div class="static">
+            Positions is Static
+        </div>
+        <div class="fixed">
+            position is fixed
+        </div>
+        <div class="relative">
+            Positions is normal
+        </div>
+        <div class="absolute">
+            position takes from it nearest Element
+        </div>
+        <div class="sticky">
+            position is sticked to it top of the page
+        </div>
+    </body>
+</html>
