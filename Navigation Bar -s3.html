@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: tomato;
+            }
+            li{
+                float: left;
+            }
+            li a{
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 5px 8px;
+
+            }
+            li a.active{
+                background-color: maroon;
+                color: beige;
+            }
+            li a:hover :not(.active){
+                background-color: sienna;
+                color: limegreen;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Horizondal Nav Bar</h1>
+        <ul>
+            <li><a class="active" href="#Menu">Menu</a></li>
+            <li><a href="#Food">Food</a></li>
+            <li><a href="#Cost">Cost</a></li>
+            <li><a href="#Offer">Offer</a></li>
+        </ul>
+    </body>
+</html>
