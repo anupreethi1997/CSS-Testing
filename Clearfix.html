@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                border: 5px solid mediumvioletred;
+                padding: auto;
+            }
+            .img1{
+                float: left;
+            }
+            .img2{
+                float: left;
+            }
+            .clearfix{
+                overflow: auto;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>The Clearfix in CSS</h1>
+        <p>If sometime the imag is taller than the content for that time using clearfix we can fix the container</p>
+        <h3>Without clearfix</h3>
+        <div>
+            <img class="img1" src="https://hips.hearstapps.com/hmg-prod/images/rabbit-breeds-american-white-1553635287.jpg?crop=0.976xw:0.651xh;0.0242xw,0.291xh&resize=980:*" alt="Rabbit" width="200" height="100">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum consequuntur autem, eaque expedita excepturi voluptas, odit commodi natus eveniet architecto iure quisquam reprehenderit earum saepe quo veritatis ab officia ipsum.
+        </div>
+        
+        <h3>With Clearfix</h3>
+        <div class="clearfix">
+            <img class="img2" src="https://hips.hearstapps.com/hmg-prod/images/rabbit-breeds-american-white-1553635287.jpg?crop=0.976xw:0.651xh;0.0242xw,0.291xh&resize=980:*" alt="Rabbit" width="200" height="100">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum consequuntur autem, eaque expedita excepturi voluptas, odit commodi natus eveniet architecto iure quisquam reprehenderit earum saepe quo veritatis ab officia ipsum.
+        </div>
+    </body>
+</html>
