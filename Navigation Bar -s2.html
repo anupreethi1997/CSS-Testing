@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ul{
+                list-style-type: none;
+                background-color: lightgray;
+                width: 200px;
+                margin: 0;
+                padding: 0;
+            }
+            li a{
+                display: block;
+                text-decoration: none;
+                padding: 10px 15px;
+                color: rgb(70, 201, 70);
+
+
+            }
+            li a.active{
+                background-color: greenyellow;
+                color: beige;
+            }
+            li a:hover:not(.active)
+            {
+                background-color: lightgray;
+                color: black;
+            }
+
+        </style>
+    </head>
+    <bosy>
+        <h1>Nav Bar</h1>
+        <ul>
+            <li><a class="active" href="#Menu">Menu</a></li>
+            <li><a href="#Food">Food</a></li>
+            <li><a href="#Cost">Cost</a></li>
+            <li><a href="#Offer">Offer</a></li>
+        </ul>
+    </bosy>
+</html>
