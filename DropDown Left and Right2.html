@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .dropbtn{
+                color: rgb( rgb(102, 100, 219));
+                background-color: springgreen;
+                border: none;
+                font-size: 20px;
+                padding: 3px 5px;
+            }
+            .dropdown{
+                display: inline-block;
+                position: relative;
+            }
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                box-shadow: 0px 8px 16px 8px;
+                background-color: mediumturquoise;
+                color: indianred;
+                right: 0;
+                border: none;
+            }
+            .dropdown-content a{
+                display: block;
+                color: palegoldenrod;
+                background-color: tomato;
+                text-decoration: none;
+                padding: 5px 5px;
+                
+            }
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+            .dropdown-content a:hover{
+                background-color: ghostwhite;
+            }
+            .dropdown:hover .dropbtn{
+                background-color: oldlace;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>DropeDown</h1>
+        
+        <div class="dropdown"style="float: left;">
+            <button class="dropbtn">Button Left</button>
+            <div class="dropdown-content" style="left: 0;">
+                <a href="#">Home</a>
+                <a href="#">News</a>
+                <a href="#">Content</a>
+            </div>
+        </div>
+        
+        <div class="dropdown"style="float: right;">
+            <button class="dropbtn">Button Right</button>
+            <div class="dropdown-content" >
+                <a href="#">Home</a>
+                <a href="#">News</a>
+                <a href="#">Content</a>
+            </div>
+        </div>
+    </body>
+</html>
